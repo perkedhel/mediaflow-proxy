@@ -1,5 +1,5 @@
 FROM python:3.13.5-slim
-1
+
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE="1"
 ENV PYTHONUNBUFFERED="1"
