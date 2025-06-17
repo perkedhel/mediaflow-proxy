@@ -17,11 +17,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set timezone to Asia/Jakarta
-        run: |
-          sudo timedatectl set-timezone Asia/Jakarta
-          export TZ="Asia/Jakarta"
-
       - name: Add upstream remote
         run: git remote add upstream https://github.com/mhdzumair/mediaflow-proxy.git
 
